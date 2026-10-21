@@ -1,0 +1,29 @@
+@import 'tailwindcss';
+
+:root {
+  --background: #0c0a09;
+  --foreground: #d6d3d1;
+  --card: #1c1917;
+  --card-foreground: #fafaf9;
+  --border: #292524;
+  --primary: #fb923c;
+
+  --bg: var(--card);
+  --text: var(--foreground);
+  --text-h: var(--card-foreground);
+  --accent: var(--primary);
+  --accent-bg: color-mix(in srgb, var(--primary) 20%, transparent);
+  --accent-border: color-mix(in srgb, var(--primary) 45%, transparent);
+
+  font-family: Georgia, 'Times New Roman', serif;
+  color: var(--foreground);
+  background: var(--background);
+}
+
+body {
+  margin: 0;
+}
+
+.ProseMirror p {
+  margin: 0.5rem 0;
+}
